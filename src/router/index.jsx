@@ -6,10 +6,12 @@ import Login from "../component/Login";
 import Profile from "../component/Profile";
 import Dashboard from "../component/Dashboard";
 import Settings from "../component/Settings";
+import PageNotFound from "../component/PageNotFound";
 
 const router = createBrowserRouter([
+    // Public routes
     {
-        path: "/login-signup-react",
+        path: "/",
         element: <Login />
     },
     {
@@ -25,6 +27,12 @@ const router = createBrowserRouter([
             { path: "/login-signup-react/dashboard", element: <Dashboard /> },
             { path: "/login-signup-react/settings", element: <Settings /> }
         ]
+    },
+
+    // 404 routes
+    {
+        path: "/*",
+        element: <PageNotFound />
     }
 ]);
 

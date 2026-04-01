@@ -5,7 +5,7 @@ const AuthGaurd = () => {
 
     // if not logged in redirect to login
     if (!user) {
-        return <Navigate to="/login-signup-react/" replace />;
+        return <Navigate to="/" replace />;
     }
     return <Outlet />;
 };
