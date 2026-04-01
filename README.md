@@ -24,7 +24,7 @@ https://tausif148.github.io/login-signup-react/
 ## Setup
 ```bash
 git clone https://github.com/Tausif148/login-signup-react.git
-cd your-repo-name
+cd login-signup-react
 npm install
 npm run dev
 
