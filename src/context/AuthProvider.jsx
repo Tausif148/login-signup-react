@@ -2,6 +2,7 @@ import { createContext } from "react";
 import { useState } from "react";
 
 import { userSignup, userLogin } from '../apis/index.js';
+import { Navigate } from "react-router-dom";
 
 export const AuthContext = createContext(null);
 
@@ -56,7 +57,7 @@ const AuthProvider = ({ children }) => {
         }
     };
 
-    
+
     // Logout functionality
     const logout = () => {
         localStorage.removeItem("loggedUser");
