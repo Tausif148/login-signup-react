@@ -19,11 +19,11 @@ This project is a simple Login and Signup Authentication system built using Reac
 - JavaScript  
 
 ## Live Demo
-https://tausif148.github.io/
+https://Tausif148.github.io/login-signup-react
 
 ## Setup
 ```bash
-git clone https://github.com/Tausif148.git
+git clone https://github.com/Tausif148/login-signup-react.git
 cd login-signup-react
 npm install
 npm run dev
