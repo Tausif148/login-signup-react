@@ -6,7 +6,7 @@ const Settings = () => {
                 <div className="border p-8 shadow-xl mb-3">
                     <h1> Settings</h1>
                     <Link
-                        to="/profile"
+                        to="/login-signup-react/profile"
                         className="text-blue-500 font-medium hover:underline text-center block"
                     >
                         Profile

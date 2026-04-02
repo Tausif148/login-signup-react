@@ -106,7 +106,7 @@ export function Signup() {
                     <p className="text-sm text-center">
                         Already have an account? {''}
                         <Link
-                            to="/"
+                            to="/login-signup-react"
                             className="text-blue-500 font-medium hover:underline"
                         >
                             Login

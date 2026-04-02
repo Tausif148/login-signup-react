@@ -23,7 +23,7 @@ function Login() {
         const result = login({ email, password });
 
         if (result) {
-            nevigate("/profile");
+            nevigate("/login-signup-react/profile");
         }
     };
 
@@ -95,7 +95,7 @@ function Login() {
                     <p className="text-sm text-center">
                         Don't have an account? {''}
                         <Link
-                            to="/signup"
+                            to="/login-signup-react/signup"
                             className="text-blue-500 font-medium hover:underline"
                         >
                             Sigup
