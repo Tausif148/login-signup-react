@@ -13,7 +13,7 @@ export default function PageNotFound() {
                     Click below to go to the login page
                 </p>
                 <Link
-                    to="/login-signup-react"
+                    to="/"
                     className="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg shadow transition duration-300"
                 >
                     Go to Login Page
